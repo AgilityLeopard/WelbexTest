@@ -1,11 +1,18 @@
 import React from "react";
+import telegram from './img/telegram-icon.svg';
+import viber from './img/viber-icon.svg';
+import WhatsApp from './img/whatsapp-icon.svg';
+import Welbex from './img/welbex-logo.svg';
+import purplelight from './img/purple-light.png';
+import purpleball from './img/purple-ball.png';
+import redball from './img/red-ball.png';
 
 const Header = () => {
   return (
     <div className="container">
       <header className="header">
         <img
-          src="img/welbex-logo.svg"
+          src={Welbex}
           alt="Logo: Welbex"
           className="header__logo"
         />
@@ -23,7 +30,7 @@ const Header = () => {
             Интеграции
           </a>
           <img
-            src="img/red-ball.png"
+            src={redball}
             alt="red ball"
             className="header__red-ball"
           />
@@ -31,12 +38,12 @@ const Header = () => {
             Кейсы
           </a>
           <img
-            src="img/purple-light.png"
+            src={purplelight}
             alt="purple light"
             className="header__purple-light"
           />
           <img
-            src="img/purple-ball.png"
+            src={purpleball}
             alt="purple ball"
             className="header__purple-ball"
           />
@@ -47,13 +54,13 @@ const Header = () => {
         <div className="header__contacts">
           <a href="tel:+75555555555">+7 555 555-55-55</a>
           <a href="/">
-            <img src="img/telegram-icon.svg" alt="Icon: Telegram" />
+            <img src={telegram} alt="Icon: Telegram" />
           </a>
           <a href="/">
-            <img src="img/viber-icon.svg" alt="Icon: Viber" />
+            <img src={viber} alt="Icon: Viber" />
           </a>
           <a href="/">
-            <img src="img/whatsapp-icon.svg" alt="Icon: WhatsApp" />
+            <img src={WhatsApp} alt="Icon: WhatsApp" />
           </a>
         </div>
       </header>

@@ -1,4 +1,7 @@
 import React from "react";
+import telegram from './img/telegram-icon.svg';
+import viber from './img/viber-icon.svg';
+import WhatsApp from './img/whatsapp-icon.svg';
 
 const Footer = () => {
   return (
@@ -40,13 +43,13 @@ const Footer = () => {
               </a>
               <div className="footer__icons">
                 <a href="/">
-                  <img src="img/telegram-icon.svg" alt="Icon: Telegram" />
+                  <img src={telegram} alt="Icon: Telegram" />
                 </a>
                 <a href="/">
-                  <img src="img/viber-icon.svg" alt="Icon: Viber" />
+                  <img src={viber} alt="Icon: Viber" />
                 </a>
                 <a href="/">
-                  <img src="img/whatsapp-icon.svg" alt="Icon: WhatsApp" />
+                  <img src={WhatsApp} alt="Icon: WhatsApp" />
                 </a>
               </div>
               <a href="http://maps.google.com/?q=Москва, Путевой проезд 3с1, к 902">
